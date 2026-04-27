@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "my-package/": ["../my-package/src/"]
     }
   },
   "include": [
